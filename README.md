@@ -2,6 +2,7 @@
 Graduate Computer Science Engineering Researcher and Software Engineer
 - Concentration: Computational Perception and Robotics
 - [Webpage](https://github.com/ConnieC14)
+- [Linkedin](https://www.linkedin.com/in/consuelocuevas)
 
 ## Theme Info
 You can use the [editor on GitHub](https://github.com/ConnieC14/conniec14.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
