@@ -28,3 +28,19 @@ Ships:
 * 10 Rows x 10 Columns
 [Code](https://github.com/ConnieC14/AI-Battleship)
 
+### UNO Card Sorter
+This Project is a sample app that simulates an UNO card game. Current functionality shows the deck you have and allows you to add card, filter them, and sort them. Functionality is to be expanded into a fully functioning card game.
+[Code](https://github.com/ConnieC14/UNO)
+
+### HEXBUG Tarantula
+This project showcases only the parts where commands were being sent to the HEXBUG Tarantula to move it forward, backwards and to turn right or left.
+
+- Using Arduino UNO to Connect to HEXBUG Controller
+>The arduino folder contains code used to program an Arduino board soldered to the HEXBUG Tarantula's IR Controller. By wiring to the metal contact plates in the controller, the Arduino board can directly push commands to the Tarantula.
+
+- Using the ESP8266 WiFi Board to Connect to HEXBUG
+> After successfully linking to the Infrared Remote Control, the HEXBUG Tarantula itself was pulled apart and resoldered to an ESP8266 WiFI Board. The IR Receiver was removed and the board was mounted to it. The goal was to use the WiFi board and communicate with the Tarantula using only python scripts. To do this I programmed using a library called PySerial to communicate through the Arduino's serial port.
+[Code](https://github.com/ConnieC14/HEXBUG-Tarantula)
+
+## Art
+
