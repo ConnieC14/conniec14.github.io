@@ -1,3 +1,4 @@
+## Welcome to my portfolio!
 ### Concentration: Computational Perception and Robotics
 - [Github](https://github.com/ConnieC14)
 - [Linkedin](https://www.linkedin.com/in/consuelocuevas)
