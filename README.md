@@ -46,6 +46,7 @@ Generate a MDP example based on a modified yahtzee inspired die game.
     
     
     The transition matrix ``P`` of the problem can then be defined as follows:
+    
 [Code](https://github.com/ConnieC14/Markov_Decision_Processes)
 
 ![Image of Wiggle Stereoscopy Process](images/WiggleStereoscopy.png)
