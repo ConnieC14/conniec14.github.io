@@ -68,7 +68,7 @@ Ships:
 * 10 Rows x 10 Columns
 [Code](https://github.com/ConnieC14/AI-Battleship)
 
-![Image of UNO](https://github.com/ConnieC14/conniec14.github.io/blob/master/images/UNOCardCreator.png)
+![Image of UNO](images/UNOCardCreator.png)
 ### UNO Card Sorter
 This Project is a sample app that simulates an UNO card game. Current functionality shows the deck you have and allows you to add card, filter them, and sort them. Functionality is to be expanded into a fully functioning card game.
 [Code](https://github.com/ConnieC14/UNO)
