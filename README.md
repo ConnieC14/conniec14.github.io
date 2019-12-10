@@ -59,13 +59,14 @@ Rather than attempting to implement all the aspects of the paper, I decided to a
 
 ## AI-Battleship
 ![Image of Battleship](images/AIBattleship.png)
-Rules:
+
+**Rules:**
 1. Each player arranges ships according to fleet
 2. Take turns firing a shot
 3. Mark Hits and Misses
 4. Call out when a ship has been sunk
 5. Sink all to win
-Ships:
+**Ships:**
 * Carrier - 5
 * Battleship - 4
 * Cruiser - 3
