@@ -58,6 +58,7 @@ Rather than attempting to implement all the aspects of the paper, I decided to a
 [Code](https://github.com/ConnieC14/Naive_Wiggle_Stereoscopy_Gifs)
 
 ## AI-Battleship
+![Image of Battleship](images/AIBattleship.png)
 Rules:
 1. Each player arranges ships according to fleet
 2. Take turns firing a shot
