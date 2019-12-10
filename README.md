@@ -66,6 +66,7 @@ Rather than attempting to implement all the aspects of the paper, I decided to a
 3. Mark Hits and Misses
 4. Call out when a ship has been sunk
 5. Sink all to win
+
 **Ships:**
 * Carrier - 5
 * Battleship - 4
