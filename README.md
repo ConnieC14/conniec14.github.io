@@ -73,6 +73,7 @@ Ships:
 This Project is a sample app that simulates an UNO card game. Current functionality shows the deck you have and allows you to add card, filter them, and sort them. Functionality is to be expanded into a fully functioning card game.
 [Code](https://github.com/ConnieC14/UNO)
 
+![Image of HEXBUG](images/HEXBUG.png)
 ### HEXBUG Tarantula
 This project showcases only the parts where commands were being sent to the HEXBUG Tarantula to move it forward, backwards and to turn right or left.
 
@@ -90,6 +91,12 @@ This project was made with the purpose of creating a robot that will compete in 
 #### Strategy
 - The main strategy of this robot is to use the 3 sonar's attached to it to help find the opposing robot. The idea behind the 3 sonars is to take advantage of its wider field of vision. This will help it quickly find the opponent and start lunging towards it, before the opponent finds it. It has a defensive strategy that moves away from the bound if it detects it and an offensive strategy that will push the opponent until it is out of bounds.
 [Code](https://github.com/ConnieC14/Sumobot_Robot_Controller)
+
+![Image of Convolution](images/Convolution.png)
+### KESMBA Brain Network Vector Data
+Texas A&M University, Computer Science Department: Keyser Lab
+- Implemented image-filtering techniques in 3D using a Gaussian smoothing filter, downsampling algorithm, and a 2D directional filter on dataset of 3D high-resolution mouse brain images.   
+- Extracted vector data using directional filter from the mouse brain dataset and visualized blood-vessel flow patterns.
 
 ## Art
 
