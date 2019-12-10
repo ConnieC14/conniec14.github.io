@@ -83,8 +83,8 @@ This project showcases only the parts where commands were being sent to the HEXB
 - After successfully linking to the Infrared Remote Control, the HEXBUG Tarantula itself was pulled apart and resoldered to an ESP8266 WiFI Board. The IR Receiver was removed and the board was mounted to it. The goal was to use the WiFi board and communicate with the Tarantula using only python scripts. To do this I programmed using a library called PySerial to communicate through the Arduino's serial port.
 [Code](https://github.com/ConnieC14/HEXBUG-Tarantula)
 
-![Rendering of SUMOBOT](https://github.com/ConnieC14/conniec14.github.io/blob/master/images/Screen%20Shot%202019-12-09%20at%209.15.04%20PM.png)
-![Image of SUMOBOT](https://github.com/ConnieC14/conniec14.github.io/blob/master/images/IMG_0334.JPG)
+![Rendering of SUMOBOT](images/Screen Shot 2019-12-09 at 9.15.04 PM.png)
+![Image of SUMOBOT](images/IMG_0334.JPG)
 ### Sumobot Robot Controller
 This project was made with the purpose of creating a robot that will compete in a tournament to push the enemy robot out of the arena. The robot uses a QTI sensor to detect whether it is in or out of bounds of the arena and a sonar to detect the respective oponent's location.
 
