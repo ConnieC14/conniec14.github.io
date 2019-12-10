@@ -5,7 +5,7 @@
 # Projects
 ## Markov Decision Processes
 ![Image of Grid World](images/MDPSmall.png)
-#### Gridworld
+### Gridworld
 ![Image of Grid World](images/Q-LearningMDP.png)
 
 In this MDP I try to model a more simple and traditional path finding problem with a slight twist
@@ -17,7 +17,7 @@ to the movement is the slight possibility of overshooting. With probability p, t
 1 space but with probability 1-p, it will overshoot and travel 2 spaces in the chosen direction
 (unless it would be placed outside the board). The board is shown below.
 
-#### Yahtzee Simplified Die Game
+### Yahtzee Simplified Die Game
 ![Image of Yahtzee](images/YahtzeeMDP.png)
 
 This Markov Decision Process is inspired by the game Yahtzee in which a player has 3 tries
@@ -82,10 +82,10 @@ This Project is a sample app that simulates an UNO card game. Current functional
 ![Image of HEXBUG](images/HEXBUG.png)
 This project showcases only the parts where commands were being sent to the HEXBUG Tarantula to move it forward, backwards and to turn right or left.
 
-#### Using Arduino UNO to Connect to HEXBUG Controller
+### Using Arduino UNO to Connect to HEXBUG Controller
 - The arduino folder contains code used to program an Arduino board soldered to the HEXBUG Tarantula's IR Controller. By wiring to the metal contact plates in the controller, the Arduino board can directly push commands to the Tarantula.
 
-#### Using the ESP8266 WiFi Board to Connect to HEXBUG
+### Using the ESP8266 WiFi Board to Connect to HEXBUG
 - After successfully linking to the Infrared Remote Control, the HEXBUG Tarantula itself was pulled apart and resoldered to an ESP8266 WiFI Board. The IR Receiver was removed and the board was mounted to it. The goal was to use the WiFi board and communicate with the Tarantula using only python scripts. To do this I programmed using a library called PySerial to communicate through the Arduino's serial port.
 [Code](https://github.com/ConnieC14/HEXBUG-Tarantula)
 
@@ -93,7 +93,7 @@ This project showcases only the parts where commands were being sent to the HEXB
 ![Rendering of SUMOBOT](images/SUMOBOTCAD.png)
 This project was made with the purpose of creating a robot that will compete in a tournament to push the enemy robot out of the arena. The robot uses a QTI sensor to detect whether it is in or out of bounds of the arena and a sonar to detect the respective oponent's location.
 
-#### Strategy
+### Strategy
 ![Rendering of SUMOBOT](images/SUMOBOT.png)
 - The main strategy of this robot is to use the 3 sonar's attached to it to help find the opposing robot. The idea behind the 3 sonars is to take advantage of its wider field of vision. This will help it quickly find the opponent and start lunging towards it, before the opponent finds it. It has a defensive strategy that moves away from the bound if it detects it and an offensive strategy that will push the opponent until it is out of bounds.
 [Code](https://github.com/ConnieC14/Sumobot_Robot_Controller)
