@@ -48,6 +48,7 @@ Generate a MDP example based on a modified yahtzee inspired die game.
     The transition matrix ``P`` of the problem can then be defined as follows:
 [Code](https://github.com/ConnieC14/Markov_Decision_Processes)
 
+![Image of Wiggle Stereoscopy Process](images/WiggleStereoscopy.png)
 ### Naive Wiggle Stereoscopy Gifs
 The original scope of the project was to recreate the results in the paper “Kinetic Depth Images: Flexible Generation of Depth Perception”. In it, the researchers expand on the concept of wiggle stereoscopy by creating smooth transitions between the two stereoscopic images rather than jumping between images. They do this by producing a depth map of the scene from the two stereoscopic images and transforming the images to render intermediate frames between the locations of the two images. In addition, to this, they try to maximize the perceived 3D effect of the gif by calculating an energy map for the image using depth, inverted saliency, and centrality. Using this energy map, a pivot axis is established which enhances the perceived 3D effect. I intended to recreate these elements to produce my own smooth 3D wiggle gifs.
 
