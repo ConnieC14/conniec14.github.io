@@ -5,8 +5,8 @@
 
 ## Projects
 ### Markov Decision Processes
-#### Gridworld
 ![Image of Grid World](images/MDPSmall.png)
+#### Gridworld
 ![Image of Grid World](images/Q-LearningMDP.png)
 
 In this MDP I try to model a more simple and traditional path finding problem with a slight twist
@@ -49,8 +49,8 @@ Generate a MDP example based on a modified yahtzee inspired die game.
     
 [Code](https://github.com/ConnieC14/Markov_Decision_Processes)
 
-![Image of Wiggle Stereoscopy Process](images/WiggleStereoscopy.png)
 ### Naive Wiggle Stereoscopy Gifs
+![Image of Wiggle Stereoscopy Process](images/WiggleStereoscopy.png)
 The original scope of the project was to recreate the results in the paper “Kinetic Depth Images: Flexible Generation of Depth Perception”. In it, the researchers expand on the concept of wiggle stereoscopy by creating smooth transitions between the two stereoscopic images rather than jumping between images. They do this by producing a depth map of the scene from the two stereoscopic images and transforming the images to render intermediate frames between the locations of the two images. In addition, to this, they try to maximize the perceived 3D effect of the gif by calculating an energy map for the image using depth, inverted saliency, and centrality. Using this energy map, a pivot axis is established which enhances the perceived 3D effect. I intended to recreate these elements to produce my own smooth 3D wiggle gifs.
 
 It became clear almost immediately that the scope of the project would have to be reduced as soon as I set out to code and implement the different elements of the KDI paper. The main issue was that there was very little guidance or explanation behind the calculations for saliency and the depth mesh. The paper also briefly named the method for producing intermediate frames without providing resources or explaining the method. Overall it was infeasible to implement all the elements that went into the paper under those circumstances.
@@ -74,13 +74,13 @@ Ships:
 * 10 Rows x 10 Columns
 [Code](https://github.com/ConnieC14/AI-Battleship)
 
-![Image of UNO](images/UNOCardCreator.png)
 ### UNO Card Sorter
+![Image of UNO](images/UNOCardCreator.png)
 This Project is a sample app that simulates an UNO card game. Current functionality shows the deck you have and allows you to add card, filter them, and sort them. Functionality is to be expanded into a fully functioning card game.
 [Code](https://github.com/ConnieC14/UNO)
 
-![Image of HEXBUG](images/HEXBUG.png)
 ### HEXBUG Tarantula
+![Image of HEXBUG](images/HEXBUG.png)
 This project showcases only the parts where commands were being sent to the HEXBUG Tarantula to move it forward, backwards and to turn right or left.
 
 #### Using Arduino UNO to Connect to HEXBUG Controller
@@ -90,16 +90,17 @@ This project showcases only the parts where commands were being sent to the HEXB
 - After successfully linking to the Infrared Remote Control, the HEXBUG Tarantula itself was pulled apart and resoldered to an ESP8266 WiFI Board. The IR Receiver was removed and the board was mounted to it. The goal was to use the WiFi board and communicate with the Tarantula using only python scripts. To do this I programmed using a library called PySerial to communicate through the Arduino's serial port.
 [Code](https://github.com/ConnieC14/HEXBUG-Tarantula)
 
-![Rendering of SUMOBOT](images/SUMOBOT.png)
-### Sumobot Robot Controller
-This project was made with the purpose of creating a robot that will compete in a tournament to push the enemy robot out of the arena. The robot uses a QTI sensor to detect whether it is in or out of bounds of the arena and a sonar to detect the respective oponent's location.
 
+### Sumobot Robot Controller
+![Rendering of SUMOBOT](images/SUMOBOTCAD.png)
+This project was made with the purpose of creating a robot that will compete in a tournament to push the enemy robot out of the arena. The robot uses a QTI sensor to detect whether it is in or out of bounds of the arena and a sonar to detect the respective oponent's location.
+![Rendering of SUMOBOT](images/SUMOBOT.png)
 #### Strategy
 - The main strategy of this robot is to use the 3 sonar's attached to it to help find the opposing robot. The idea behind the 3 sonars is to take advantage of its wider field of vision. This will help it quickly find the opponent and start lunging towards it, before the opponent finds it. It has a defensive strategy that moves away from the bound if it detects it and an offensive strategy that will push the opponent until it is out of bounds.
 [Code](https://github.com/ConnieC14/Sumobot_Robot_Controller)
 
-![Image of Convolution](images/Convolution.png)
 ### KESMBA Brain Network Vector Data
+![Image of Convolution](images/Convolution.png)
 Texas A&M University, Computer Science Department: Keyser Lab
 - Implemented image-filtering techniques in 3D using a Gaussian smoothing filter, downsampling algorithm, and a 2D directional filter on dataset of 3D high-resolution mouse brain images.   
 - Extracted vector data using directional filter from the mouse brain dataset and visualized blood-vessel flow patterns.
