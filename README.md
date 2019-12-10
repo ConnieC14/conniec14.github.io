@@ -5,7 +5,8 @@
 
 ## Projects
 ### Markov Decision Processes
-
+![Image of Grid World](images/MDPSmall.png)
+![Image of Grid World](images/Q-LearningMDP.png)
 #### Gridworld
 In this MDP I try to model a more simple and traditional path finding problem with a slight twist
 on movement. I define a 5 by 5 grid world with cells that have positive and negative reward for
@@ -16,6 +17,7 @@ to the movement is the slight possibility of overshooting. With probability p, t
 1 space but with probability 1-p, it will overshoot and travel 2 spaces in the chosen direction
 (unless it would be placed outside the board). The board is shown below.
 
+![Image of Yahtzee](images/YahtzeeMDP.png)
 #### Yahtzee Simplified Die Game
 This Markov Decision Process is inspired by the game Yahtzee in which a player has 3 tries
 to roll dice in order to score points depending on what the final outcome is. In my version, the
