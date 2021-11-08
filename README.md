@@ -107,5 +107,4 @@ Texas A&M University, Computer Science Department: Keyser Lab
 - Implemented image-filtering techniques in 3D using a Gaussian smoothing filter, downsampling algorithm, and a 2D directional filter on dataset of 3D high-resolution mouse brain images.   
 - Extracted vector data using directional filter from the mouse brain dataset and visualized blood-vessel flow patterns.
 
-# Art
 
